@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1048457415303",
+    "project_id": "fixitforme-app",
+    "storage_bucket": "fixitforme-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048457415303:android:74349836164e3eef2e0622",
+        "android_client_info": {
+          "package_name": "co.com.myapp.cesde"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcRvCnfflXYcEYf_9i4qVuCPT875icMpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

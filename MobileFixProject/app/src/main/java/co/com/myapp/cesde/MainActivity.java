@@ -1,6 +1,8 @@
 package co.com.myapp.cesde;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -24,5 +26,21 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        btn_inicio = findViewById(R.id.btn_inicio);
+
+        btn_inicio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                irAlHome();
+            }
+        });
+    }
+
+
+    public void irAlHome(){
+
+        Intent intent = new Intent(this, Home.class);
+        startActivity(intent);
     }
 }

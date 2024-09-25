@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "co.com.myapp.cesde.app-mergeDebugResources-29:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "co.com.myapp.cesde.app-mergeDebugResources-33:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\desarrollo\\.gradle\\caches\\transforms-4\\f4a25eb178310fc8f72f5c01fbdd1be7\\transformed\\core-1.13.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\desarrollo\\.gradle\\caches\\transforms-4\\37a50ea4b4aff96e95b3b5ca79148581\\transformed\\core-1.13.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\desarrollo\\.gradle\\caches\\transforms-4\\19b07e76b7e90c1e6e152248701cc7b2\\transformed\\appcompat-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\desarrollo\\.gradle\\caches\\transforms-4\\f4089609bce8964b9612c32b5d5a836c\\transformed\\appcompat-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

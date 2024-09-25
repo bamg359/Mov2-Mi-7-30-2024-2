@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1048457415303</string>
+    <string name="google_api_key" translatable="false">AIzaSyCcRvCnfflXYcEYf_9i4qVuCPT875icMpE</string>
+    <string name="google_app_id" translatable="false">1:1048457415303:android:74349836164e3eef2e0622</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCcRvCnfflXYcEYf_9i4qVuCPT875icMpE</string>
+    <string name="google_storage_bucket" translatable="false">fixitforme-app.appspot.com</string>
+    <string name="project_id" translatable="false">fixitforme-app</string>
+</resources>

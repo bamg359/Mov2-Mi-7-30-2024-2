@@ -35,12 +35,13 @@ public class Registro extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
+        //EdgeToEdge.enable(this);
         setContentView(R.layout.activity_registro);
 
 
         btnVolverDesdeRegistroAHome = findViewById(R.id.btn_volver_reg);
-        inputIdUsuario = findViewById(R.id.input_user_name);
+        inputIdUsuario = findViewById(R.id.input_user_id);
+        inputNombreUsuario = findViewById(R.id.input_user_name);
         inputApellidoUsuario = findViewById(R.id.input_user_lastname);
         inputCorreoUsuario = findViewById(R.id.input_user_email);
         inputTelefonoUsuario = findViewById(R.id.input_user_phone);
@@ -70,7 +71,7 @@ public class Registro extends AppCompatActivity {
 
         nuevoUsuario.child("Nombre").setValue(nombre);
 
-        String apellido = inputNombreUsuario.getText().toString();
+        String apellido = inputApellidoUsuario.getText().toString();
 
         nuevoUsuario.child("Apellildo").setValue(apellido);
 

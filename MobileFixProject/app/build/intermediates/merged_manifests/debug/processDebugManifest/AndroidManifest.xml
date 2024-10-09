@@ -33,6 +33,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApp" >
         <activity
+            android:name="co.com.myapp.cesde.UserDataView"
+            android:exported="false" />
+        <activity
             android:name="co.com.myapp.cesde.DashBoard"
             android:exported="false" />
         <activity

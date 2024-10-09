@@ -16,6 +16,10 @@
         "source": "C:\\Users\\desarrollo\\.gradle\\daemon\\8.7\\co.com.myapp.cesde.app-main-37:\\layout\\activity_home.xml"
     },
     {
+        "merged": "C:\\Users\\desarrollo\\.gradle\\daemon\\8.7\\co.com.myapp.cesde.app-debug-35:\\layout_activity_user_data_view.xml.flat",
+        "source": "C:\\Users\\desarrollo\\.gradle\\daemon\\8.7\\co.com.myapp.cesde.app-main-37:\\layout\\activity_user_data_view.xml"
+    },
+    {
         "merged": "C:\\Users\\desarrollo\\.gradle\\daemon\\8.7\\co.com.myapp.cesde.app-debug-35:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\desarrollo\\.gradle\\daemon\\8.7\\co.com.myapp.cesde.app-main-37:\\xml\\backup_rules.xml"
     },
@@ -60,6 +64,10 @@
         "source": "C:\\Users\\desarrollo\\.gradle\\daemon\\8.7\\co.com.myapp.cesde.app-main-37:\\layout\\activity_inicio_sesion.xml"
     },
     {
+        "merged": "co.com.myapp.cesde.app-debug-35:/layout_activity_user_data_view.xml.flat",
+        "source": "co.com.myapp.cesde.app-main-37:/layout/activity_user_data_view.xml"
+    },
+    {
         "merged": "C:\\Users\\desarrollo\\.gradle\\daemon\\8.7\\co.com.myapp.cesde.app-debug-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\desarrollo\\.gradle\\daemon\\8.7\\co.com.myapp.cesde.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
@@ -82,10 +90,6 @@
     {
         "merged": "C:\\Users\\desarrollo\\.gradle\\daemon\\8.7\\co.com.myapp.cesde.app-debug-35:\\drawable_user.png.flat",
         "source": "C:\\Users\\desarrollo\\.gradle\\daemon\\8.7\\co.com.myapp.cesde.app-main-37:\\drawable\\user.png"
-    },
-    {
-        "merged": "co.com.myapp.cesde.app-debug-35:/layout_activity_registro.xml.flat",
-        "source": "co.com.myapp.cesde.app-main-37:/layout/activity_registro.xml"
     },
     {
         "merged": "C:\\Users\\desarrollo\\.gradle\\daemon\\8.7\\co.com.myapp.cesde.app-debug-35:\\mipmap-anydpi_ic_launcher.xml.flat",

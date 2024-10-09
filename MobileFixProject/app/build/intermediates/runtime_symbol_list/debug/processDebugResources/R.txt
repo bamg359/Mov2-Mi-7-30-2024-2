@@ -3236,11 +3236,13 @@ int id bounce 0x7f080061
 int id bounceBoth 0x7f080062
 int id bounceEnd 0x7f080063
 int id bounceStart 0x7f080064
+int id btn_buscar_usuario 0x7f080217
 int id btn_iniciar_sesion 0x7f080065
 int id btn_inicio 0x7f080066
 int id btn_inicio_sesion 0x7f080067
 int id btn_registrar 0x7f080068
 int id btn_registro 0x7f080069
+int id btn_volver_dash1 0x7f080218
 int id btn_volver_iniciosesion 0x7f08006a
 int id btn_volver_reg 0x7f08006b
 int id button10 0x7f08006c
@@ -3380,6 +3382,7 @@ int id included 0x7f0800f1
 int id indeterminate 0x7f0800f2
 int id info 0x7f0800f3
 int id input_email 0x7f0800f4
+int id input_id_buscar 0x7f080219
 int id input_password 0x7f0800f5
 int id input_user_email 0x7f0800f6
 int id input_user_id 0x7f0800f7
@@ -3441,6 +3444,12 @@ int id month_navigation_fragment_toggle 0x7f08012e
 int id month_navigation_next 0x7f08012f
 int id month_navigation_previous 0x7f080130
 int id month_title 0x7f080131
+int id mostrar_apellido 0x7f08021a
+int id mostrar_contrasena 0x7f08021b
+int id mostrar_correo 0x7f08021c
+int id mostrar_id_usuario 0x7f08021d
+int id mostrar_nombre_usuario 0x7f08021e
+int id mostrar_telefono 0x7f08021f
 int id motion_base 0x7f080132
 int id mtrl_anchor_parent 0x7f080133
 int id mtrl_calendar_day_selector_frame 0x7f080134
@@ -3598,6 +3607,7 @@ int id tag_accessibility_actions 0x7f0801cb
 int id tag_accessibility_clickable_spans 0x7f0801cc
 int id tag_accessibility_heading 0x7f0801cd
 int id tag_accessibility_pane_title 0x7f0801ce
+int id tag_datos_usuario 0x7f080220
 int id tag_inicio_sesion 0x7f0801cf
 int id tag_on_apply_window_listener 0x7f0801d0
 int id tag_on_receive_content_listener 0x7f0801d1
@@ -3791,6 +3801,7 @@ int layout activity_inicio_sesion 0x7f0b001e
 int layout activity_main 0x7f0b001f
 int layout activity_main2 0x7f0b0020
 int layout activity_registro 0x7f0b0021
+int layout activity_user_data_view 0x7f0b0071
 int layout custom_dialog 0x7f0b0022
 int layout design_bottom_navigation_item 0x7f0b0023
 int layout design_bottom_sheet_dialog 0x7f0b0024

@@ -15,6 +15,8 @@ public class Home extends AppCompatActivity {
 
     Button btnIrRegistro;
 
+    Button btnInicioSesion;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,14 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         btnIrRegistro = findViewById(R.id.btn_registro);
+        btnInicioSesion = findViewById(R.id.btn_inicio_sesion);
+
+        btnInicioSesion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                irAlInicioSesion();
+            }
+        });
 
         btnIrRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +50,12 @@ public class Home extends AppCompatActivity {
     public void irAlRegistro(){
 
         Intent intent = new Intent(this, Registro.class);
+        startActivity(intent);
+    }
+
+    public void irAlInicioSesion(){
+
+        Intent intent = new Intent(this, InicioSesion.class);
         startActivity(intent);
     }
 

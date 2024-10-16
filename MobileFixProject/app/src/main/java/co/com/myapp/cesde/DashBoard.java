@@ -1,6 +1,8 @@
 package co.com.myapp.cesde;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -27,6 +29,14 @@ public class DashBoard extends AppCompatActivity {
         btnVerDatosUsuario = findViewById(R.id.btn_ver_datos);
 
 
+        btnVerDatosUsuario.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                irVerDatosUsuario();
+            }
+        });
+
+
 
 
 
@@ -37,4 +47,13 @@ public class DashBoard extends AppCompatActivity {
             return insets;
         });
     }
+
+
+    public void irVerDatosUsuario(){
+
+        Intent intent = new Intent(this, UserDataView.class);
+        startActivity(intent);
+
+    }
+
 }

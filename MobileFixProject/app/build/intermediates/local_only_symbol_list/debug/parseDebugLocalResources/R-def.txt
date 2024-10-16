@@ -13,12 +13,12 @@ id btn_inicio
 id btn_inicio_sesion
 id btn_registrar
 id btn_registro
+id btn_ver_datos
 id btn_volver_dash1
 id btn_volver_iniciosesion
 id btn_volver_reg
 id button10
 id button11
-id button7
 id button8
 id button9
 id imageView

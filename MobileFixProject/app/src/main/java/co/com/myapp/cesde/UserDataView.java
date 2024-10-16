@@ -1,6 +1,7 @@
 package co.com.myapp.cesde;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -55,6 +56,15 @@ public class UserDataView extends AppCompatActivity {
         mostrarApellido = findViewById(R.id.mostrar_apellido);
         mostrarTelefono = findViewById(R.id.mostrar_telefono);
         mostrarCorreo = findViewById(R.id.mostrar_correo);
+
+
+
+        btnConsultarUsuario.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                recuperarDataUsuario();
+            }
+        });
 
 
 
